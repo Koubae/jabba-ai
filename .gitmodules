@@ -1,0 +1,9 @@
+[submodule "jabba-ai-ui"]
+	path = jabba-ai-ui
+	url = git@github.com:Koubae/jabba-ai-ui.git
+[submodule "jabba-ai-chat-app"]
+	path = jabba-ai-chat-app
+	url = git@github.com:Koubae/jabba-ai-chat-app.git
+[submodule "jabba-ai-bot"]
+	path = jabba-ai-bot
+	url = git@github.com:Koubae/jabba-ai-bot.git
