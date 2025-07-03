@@ -25,3 +25,17 @@ To update later the submodules
 ```bash
 make update-submodules
 ```
+
+
+### Dependency containers
+
+To work locally and avoid having 2k containers for same services, there is a [docker-compose.yml](docker-compose.yml) with services
+where each micro-service can use and be shared.
+
+Also the main network is defined there.
+
+```bash
+# cache
+make up-cache
+make down-cache
+```

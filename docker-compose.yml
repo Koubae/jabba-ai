@@ -1,0 +1,17 @@
+services:
+  cache:
+    image: redis:7
+    container_name: jabba-ai-cache
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - jabba-ai-network
+
+volumes:
+  redis-data:
+
+networks:
+  jabba-ai-network:
