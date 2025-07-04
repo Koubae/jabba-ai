@@ -10,10 +10,6 @@ clone-submodules:
 update-submodules:
 	git submodule update --remote --merge
 
-
-
-
-
 # ============================
 #       Docker
 # ============================
@@ -22,3 +18,5 @@ up-cache:
 	@docker compose up cache
 down-cache:
 	@docker compose down cache
+down-cache-clean-up:
+	@docker compose down -v cache

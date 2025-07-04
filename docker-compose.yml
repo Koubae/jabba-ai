@@ -15,3 +15,4 @@ volumes:
 
 networks:
   jabba-ai-network:
+    name: jabba-ai-network
