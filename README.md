@@ -51,3 +51,21 @@ make mysql-down
 make mysql-down-clean-up
 make mysql-shell
 ``` 
+
+#### Database (MongoDB)
+
+```bash
+make mongo-up
+make mongo-down
+make mongo-down-clean-up
+``` 
+
+Go to http://localhost:18081/
+
+* User: `admin`
+* Password: `pass`
+
+* [MongoDB -- GO SKD QuickStart](https://www.mongodb.com/docs/drivers/go/current/quick-start/)
+* [go.mongodb.org/mongo-driver/v2/mongo](https://pkg.go.dev/go.mongodb.org/mongo-driver/v2/mongo)
+
+* [perfectgentlemande/go-mongodb-crud-example](https://github.dev/perfectgentlemande/go-mongodb-crud-example)

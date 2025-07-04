@@ -42,3 +42,13 @@ mysql-down-clean-up:
 
 mysql-shell:
 	docker-compose exec mysql mysql -u admin -padmin
+
+# ////////////////////
+#		DB -- MongoDB
+# ////////////////////
+mongo-up:
+	@docker compose up db-mongodb-dashboard
+mongo-down:
+	@docker compose down db-mongodb-dashboard
+mongo-down-clean-up:
+	@docker compose down -v db-mongodb-dashboard
