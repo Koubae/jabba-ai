@@ -10,6 +10,9 @@ clone-submodules:
 update-submodules:
 	git submodule update --remote --merge
 
+update-all:
+	git submodule foreach git pull origin master
+
 # ============================
 #       Docker
 # ============================
