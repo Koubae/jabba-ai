@@ -20,9 +20,25 @@ update-all:
 #       Docker
 # ============================
 
-up-cache:
+# ////////////////////
+#		Cache -- Redis
+# ////////////////////
+redis-up:
 	@docker compose up cache
-down-cache:
+redis-down:
 	@docker compose down cache
-down-cache-clean-up:
+redis-down-clean-up:
 	@docker compose down -v cache
+
+# ////////////////////
+#		DB -- MySQL
+# ////////////////////
+mysql-up:
+	@docker compose up mysql
+mysql-down:
+	@docker compose down mysql
+mysql-down-clean-up:
+	@docker compose down -v mysql
+
+mysql-shell:
+	docker-compose exec mysql mysql -u admin -padmin

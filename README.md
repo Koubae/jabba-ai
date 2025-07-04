@@ -34,8 +34,20 @@ where each micro-service can use and be shared.
 
 Also the main network is defined there.
 
+#### Cache (Redis)
+
 ```bash
 # cache
-make up-cache
-make down-cache
+make redis-up
+make redis-down
+make redis-down-clean-up
 ```
+
+#### Database (mysql)
+
+```bash
+make mysql-up
+make mysql-down
+make mysql-down-clean-up
+make mysql-shell
+``` 
