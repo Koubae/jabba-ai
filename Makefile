@@ -21,6 +21,29 @@ update-all:
 # ============================
 
 # ////////////////////
+#	Ai-Bot
+# ////////////////////
+up-bot:
+	@docker compose -f jabba-ai-bot/docker-compose.yml up
+
+# ////////////////////
+#	Chat-App
+# ////////////////////
+up-chat-up:
+	@docker compose -f jabba-ai-chat-app/docker-compose.yml up
+
+# ////////////////////
+#	UI
+# ////////////////////
+up-ui-up:
+	@docker compose -f jabba-ai-ui/docker-compose.yml up
+
+up:
+	@docker compose up
+down:
+	@docker compose down
+
+# ////////////////////
 #		Cache -- Redis
 # ////////////////////
 redis-up:
@@ -41,7 +64,7 @@ mysql-down-clean-up:
 	@docker compose down -v mysql
 
 mysql-shell:
-	docker-compose exec mysql mysql -u admin -padmin
+	docker-compose exec mysql mysql -u root -padmin
 
 # ////////////////////
 #		DB -- MongoDB

@@ -26,6 +26,56 @@ To update later the submodules
 make update-submodules
 ```
 
+Next open 4 terminals
+
+#### 2) Run dependencies
+
+This will start datatabases, see [Dependency containers](#dependency-containers)
+
+```bash
+make up
+``` 
+
+Wait a bit for the databases to be fully up
+
+
+##### 2.b) Create MySQL database
+
+```bash
+# enter mysql db
+make mysql-shell
+```
+
+Copy paste [chat-identity/schema.sql](./jabba-ai-chat-app/schema/chat-identity/schema.sql) and paste it in the terminal.
+
+##### 2.c) Create MongoDB Indexes 
+
+```bash
+cd jabba-ai-chat-app
+make script-prepare-mongo-database
+```
+
+#### 3) Spin up bot
+
+```bash
+make up-bot
+```
+
+#### 4) Spin up Chat App services (which are 3 services)
+
+```bash
+make up-chat-up
+```
+#### 3) Spin up UI
+
+```bash
+make up-ui-up
+```
+
+Go to http://localhost:3000
+
+Development
+-----------
 
 ### Dependency containers
 
