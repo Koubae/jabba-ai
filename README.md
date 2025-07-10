@@ -3,7 +3,7 @@ jabba-ai
 
 
 <p align="center">
-  <img src="docs/imgs/jabba.webp" />
+  <img src="docs/imgs/jabba.png" />
 </p>
 
 
