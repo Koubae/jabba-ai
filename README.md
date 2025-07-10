@@ -12,7 +12,7 @@ Jabba is a Chat AI Bot | is called Jabba because in British English is pronounce
 The Chat App is a very simple AI model train to chat by using [ollama](https://ollama.com/).
 Both `openchat` | `neural-chat` are available but I found `neural-chat` faster and more suited to this project.
 
-Check also **The [Architecture](./docs/readme.md)**
+### Check also **The [Architecture](./docs/readme.md)**
 
 Is composed of the following projects:
 
