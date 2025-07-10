@@ -91,3 +91,76 @@ Note: this is not fully implemented yet!
 #### AI-Bot
 
 ![AI-Bot](image-9.png)
+
+
+
+Views
+-----
+
+### Welcome View
+
+![Welcome View](image-10.png)
+
+### Signup View
+
+![Signup View](image-11.png)
+
+### Login View
+
+
+![Login View](image-12.png)
+
+### Dashboard
+
+![Dashboard](image-13.png)
+
+### User Profile
+
+![User Profile](image-14.png)
+
+
+### Application
+
+#### Create Application
+
+![aCreate Application](image-15.png)
+
+#### Applications
+
+![Applications](image-16.png)
+
+#### Application View
+
+![Application View](image-17.png)
+
+
+### Session
+
+
+#### Create Session
+
+![Create Session](image-18.png)
+
+#### Sessions
+
+![Sessions](image-19.png)
+
+#### Session View
+
+![ Session View](image-20.png)
+
+### Chat
+
+**Single Chat** Chat GPT style
+
+![chat-single](image-21.png)
+
+
+**Multi Chat** , multiple member in the same chat!
+
+![Multi Chat](image-22.png)
+
+
+**Message Raw content**
+
+![Message Raw content](image-23.png)

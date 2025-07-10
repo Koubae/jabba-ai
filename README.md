@@ -20,6 +20,24 @@ Is composed of the following projects:
 * [jabba-ai-chat-app](https://github.com/Koubae/jabba-ai-chat-app)
 * [jabba-ai-bot](https://github.com/Koubae/jabba-ai-bot)
 
+### **Single Chat** Chat GPT style
+
+<p align="center">
+ <img src="docs/image-21.png" />
+</p>
+
+### **Multi Chat** , multiple member in the same chat!
+<p align="center">
+ <img src="docs/image-22.png" />
+</p>
+
+**Message Raw content**
+<p align="center">
+ <img src="docs/image-23.png" />
+</p>
+
+
+
 
 Quick Start
 -----------
