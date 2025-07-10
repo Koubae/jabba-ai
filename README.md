@@ -1,7 +1,7 @@
 jabba-ai
 ========
 
-![jabba.jpg](docs/imgs/jabba.jpg)
+![jabba.jpg](docs/imgs/jabba.webp)
 
 
 Jabba is a Chat AI Bot | is called Jabba because in British English is pronounced the same as jabber and I found it funny :)
