@@ -58,36 +58,36 @@ what has been discussed and so it feels like the conversations is a unique no st
 ### Overview
 
 
-![img.png](img.png)
+![overview-1](image.png)
 
-![img_9.png](img_9.png)
+![arch](image-1.png)
 
 #### Flow
 
-![img_7.png](img_7.png)
-![img_8.png](img_8.png)
+![flow-1](image-2.png)
+![flow-2](image-3.png)
 
 #### Jabba-UI
 
-![img_1.png](img_1.png)
+![Jabba-UI](image-4.png)
 
 #### ChatIdentity
 
-![img_2.png](img_2.png)
+![ChatIdentity](image-5.png)
 
 #### ChatOrchestrator
 
-![img_3.png](img_3.png)
+![ChatOrchestrator](image-6.png)
 
 **database schema**
 Note: this is not fully implemented yet!
 
-![img_4.png](img_4.png)
+![database schema](image-7.png)
 
 #### ChatSession
 
-![img_5.png](img_5.png)
+![ChatSession](image-8.png)
 
 #### AI-Bot
 
-![img_6.png](img_6.png)
+![AI-Bot](image-9.png)
